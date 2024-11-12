@@ -1,0 +1,1 @@
+TanStack Table's core is framework agnostic, which means its API is the same regardless of the framework you're using. Adapters are provided to make working with the table core easier depending on your framework. See the Adapters menu for available adapters.
