@@ -6,6 +6,9 @@ import Barchart from "./Charts/BarChart";
 import PieChart from "./Charts/PieChart";
 import BubbleChart from "./Charts/BubbleChart";
 import AreaChart from "./Charts/AreaChart";
+import BasicTable from './Table/TableFilter';
+import CustomChart from './Charts/CustomChart';
+
 
 import * as d3 from "d3";
 
@@ -19,7 +22,9 @@ function App() {
       {/* <Barchart /> */}
       {/* <PieChart /> */}
       {/* <BubbleChart /> */}
-      <AreaChart />
+      {/* <AreaChart /> */}
+      {/* <BasicTable /> */}
+      <CustomChart />
     </div>
   );
 }
