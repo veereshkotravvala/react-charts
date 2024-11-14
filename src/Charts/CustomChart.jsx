@@ -37,13 +37,16 @@ const CustomChart = () => {
     const x = d3
       .scaleBand()
       .range([0, width])
-      .domain(data.map((d) => d.Country))
+      .domain(data.map(d => "AA" + d.Country))
       .padding(0.2);
+
+      const tickValuesForAxis = data.map(d => "AA" + d.Country);
 
     svg
       .append("g")
       .attr("transform", `translate(0, ${height})`)
       .call(d3.axisBottom(x))
+      // .tickValues(tickValuesForAxis))
       .selectAll("text")
       .attr("transform", "translate(-10,0)rotate(-45)")
       .style("text-anchor", "end");

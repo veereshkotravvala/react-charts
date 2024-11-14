@@ -8,6 +8,7 @@ import BubbleChart from "./Charts/BubbleChart";
 import AreaChart from "./Charts/AreaChart";
 import BasicTable from './Table/TableFilter';
 import CustomChart from './Charts/CustomChart';
+import DisplayPosts from './React-Query'
 
 
 import * as d3 from "d3";
@@ -25,6 +26,7 @@ function App() {
       {/* <AreaChart /> */}
       {/* <BasicTable /> */}
       <CustomChart />
+      {/* <DisplayPosts /> */}
     </div>
   );
 }
